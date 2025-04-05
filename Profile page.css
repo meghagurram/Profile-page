@@ -1,0 +1,69 @@
+body{
+    background-color:DarkslateGray;
+
+}
+
+#profile {
+    text-align:center;
+    color:#ffffff;
+    list-style-position:inside;
+}
+#profile li{
+    display:inline;
+    margin:15px;
+}
+#streak li{
+    display:inline;
+    margin:10px;
+    padding:5px;
+    
+    
+}
+
+h2{
+    text-align:center;
+    color:white;
+}
+#font-Arial{
+    font-family:Arial;
+}
+#font-sans-serif{
+    font-family:sans-serif;
+}
+.active-day{
+    
+    color:#00cc00;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes pulse{
+    0%{
+        font-size:100%;
+        color:inherit;
+    }
+    50%{
+        font-size:120%;
+        color:#00cc00;
+    }
+    100%{
+        font-size:100%;
+        color:inherit;
+    }
+
+}
+
+#profile #streak{
+    list-style:none;
+}
+#streak{
+    background-color: #cccccc;
+    border-radius: 5px;
+    padding-top:10px;
+}
+#streak p{
+    color: #676767;
+    display:inline;
+    margin:10px;
+   
+}
